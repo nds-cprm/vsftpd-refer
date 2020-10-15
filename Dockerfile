@@ -37,7 +37,7 @@ COPY ./etc /etc/
 
 COPY ./ftpuser /bin
 
-ENTRYPOINT ["/docker-entrypoint.sh"]
+#ENTRYPOINT ["/docker-entrypoint.sh"]
 
 STOPSIGNAL SIGTERM
 
