@@ -1,0 +1,8 @@
+#!/bin/sh
+echo "This account is limited to FTP access only."
+if [ "${1}" = "" ] ; then 
+    echo " Give me a account name!"
+else
+    useradd -M -N -d /data -g ftponly -s /usr/sbin/nologin $1
+    echo "$1" >> /etc/vsftpd/vsftpd.users
+fi

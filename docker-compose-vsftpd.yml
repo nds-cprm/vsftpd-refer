@@ -1,0 +1,34 @@
+#
+# maintainer: "Alvaro Barcellos <alvaro.barcellos@cprm.gov.br>"
+#
+
+version: "2.2"
+
+networks:
+    default:
+    internal_hosts:
+        external: true
+
+services:
+    vftpd_refer:
+        build:
+            context: ./
+            dockerfile: Dockerfile
+        image: vsftpd:3.03
+        container_name: vsftpd4refer
+        restart: unless-stopped
+        stdin_open: true
+        # tty: true
+        networks:
+            - internal_hosts
+        #hostname: refer
+        ports:
+            - "20:20"
+            - "21:21"
+            - "60000-60100:60000-60100"
+        volumes:
+            - vsftpd_refer_data:/data
+volumes:
+    vsftpd_refer_data:
+        name: vsftpd_refer_data
+
