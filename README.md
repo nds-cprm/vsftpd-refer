@@ -21,3 +21,5 @@ Isenção de responsabilidade. Quem usa este site o  faz por sua conta e risco. 
 
 ## Licença
 GNU versao 3.0 (https://www.gnu.org/licenses/gpl.txt)
+de acordo com portaria Nº 46, de 28 de setembro de 2016, de Secretaria de Tecnologia da Informação, Brasil
+
