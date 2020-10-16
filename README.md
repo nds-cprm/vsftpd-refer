@@ -1,29 +1,4 @@
 f4788fa2-0f32-11eb-a154-0fd310ec83e9 Thu, 15 Oct 2020 19:08:28 -0300
-<<<<<<< HEAD
-## Table of contents
-* [General info](#general-info)
-* [Technologies](#technologies)
-* [Setup](#setup)
-
-## General info
-This project is simple Lorem ipsum dolor generator.
-    
-## Technologies
-    Project is created with:
-    * Lorem version: 12.3
-    * Ipsum version: 2.33
-    * Ament library version: 999
-        
-## Setup
-        To run this project, install it locally using npm:
-
-        ```
-        $ cd ../lorem
-        $ npm install
-        $ npm start
-
-        ```
-=======
 # vsftpd-refer
 Instalação para servidor de vsftpd (https://security.appspot.com/vsftpd.html), versao 3.0.3 em imagem linux debian:buster-slim, para container no formato docker.
 
@@ -46,4 +21,3 @@ Isenção de responsabilidade. Quem usa este site o  faz por sua conta e risco. 
 
 ## Licença
 GNU versao 3.0 (https://www.gnu.org/licenses/gpl.txt)
->>>>>>> b8dbcbcfd80f75a22f3a4e1017b9713ea268531a
